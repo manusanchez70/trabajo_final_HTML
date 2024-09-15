@@ -1,0 +1,156 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+    
+}
+
+img{
+    border-radius: 10px;}
+/*CABECERA*/
+header{
+    margin-left: auto;
+    margin-right: auto;
+    background-color:rgba(0, 0, 0, 0.623);
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+    line-height: 100px;
+    font-size: 25px;
+}
+    
+
+
+/*NAVEGADOR*/
+nav{
+   
+    text-align: end;
+    width: 100%;
+    background-color: rgb( 255, 87, 51 )
+}
+nav,ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 90px;
+    height: 50px;
+    list-style: none;
+    
+}
+nav,ul,a{
+    text-decoration: none;
+    color: white;
+}
+mark{
+    background-color:rgba(255, 255, 255, 0.733);
+    border-radius: 5px;
+    border-style: double;
+}
+
+
+
+a:hover{
+    color:  rgb(253, 249, 249);
+}
+/*PARTE PRINCIPAL*/
+main{
+    height: 1000px;
+    display: flex;
+    flex-direction: column;
+    
+}
+.container{
+    display: flex;
+    
+
+}
+aside{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    padding: 50px 55px;
+}
+h2{
+    font-size: 30px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    
+    
+}
+ol{
+    list-style: none;
+    text-align: center;
+}
+li{
+    padding: 10px 20px;
+}
+.negrita{
+    font-weight: 600;
+    font-size: 20px;
+}
+.linea-horizontal{
+    width: 300px;
+    border: 1px dotted black;
+    height: 2px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+}
+.horario-apertura{
+    margin-top:30px
+}
+.horario{
+    margin-top: 10px;
+}
+.linea-vertical{
+    margin-top: 70px;
+    width: 20px;
+    height:754px ;
+    background-color:rgb( 255, 87, 51 );
+}
+section{
+    width: 70%;
+    min-height: 100vh;
+}
+.mapa{
+    margin: 50px;
+  
+}
+.ubicacion{
+    border: 2px dashed rgb( 255, 87, 51 ) ;
+    height:695px;
+    width: 89%;
+    margin: -30px 65px;
+}
+
+/*FOOTER*/
+footer {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    height: 150px;
+}
+
+.footer-container {
+    display: flex;
+    margin-top: 10px;
+ }
+ .footer-section {
+    flex:1 0 auto; ;
+    margin-top: -10px;
+}
+.avisos{
+    position: relative;
+    top: 25px;
+    }
+    .footer-section,h3{
+        padding: 10px;
+    }
+    

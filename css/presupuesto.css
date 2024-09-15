@@ -1,0 +1,141 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+img{
+    border-radius: 10px;}
+/*CABECERA*/
+header{
+    margin-left: auto;
+    margin-right: auto;
+    background-color:rgba(0, 0, 0, 0.623);
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+    line-height: 100px;
+    font-size: 25px;
+}
+    
+/*NAVEGADOR*/
+nav{
+   
+    text-align: end;
+    width: 100%;
+    background-color: rgb( 255, 87, 51 )
+}
+nav,ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 90px;
+    height: 50px;
+    list-style: none;
+    
+}
+nav,ul,a{
+    text-decoration: none;
+    color: white;
+}
+mark{
+    background-color:rgba(255, 255, 255, 0.733);
+    border-radius: 5px;
+    border-style: double;
+}
+
+
+a:hover{
+    color: rgb(253, 249, 249);
+}
+/*PARTE PRINCIPAL*/
+main{
+    height: 900px;
+}
+/*CONTENEDOR DE FORMULARIO*/
+H2{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin: 30px 30px;
+    font-size: 30px;
+
+}
+.container{
+    min-height: 50vh;
+    margin-top: 50px;
+
+}
+/*ESTILOS AL FORMULARIO*/
+form{
+    margin-left: auto;
+    margin-right: auto;
+    padding: 50px 55px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    border-radius: 20px;
+    height: 700px;
+    width: 500px;
+    
+}
+.input-label{
+    display: flex;
+    flex-direction: column;
+    
+}
+label{
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+input,textarea{
+    padding: 10px 20px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    border: 1px solid rgba(255, 88, 51, 0.363); 
+    outline: none;
+}
+p{
+    text-align: center;
+    font-weight: 600;
+}
+.checkbox{
+    display: inline-block;
+    margin: 20px;
+    
+    
+}
+input:hover{
+   background-color:rgba(255, 88, 51, 0.363); 
+}
+/*FOOTER*/
+footer {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    height: 150px;
+}
+.footer-container {
+    display: flex;
+    margin-top: 10px;
+}
+
+.footer-section {
+    flex:1 0 auto; ;
+    margin-top: -10px;
+}
+.avisos{
+ position: relative;
+ top: 25px;
+ 
+}
+.footer-section,h3{
+    padding: 10px;
+}
+
+
+
+
